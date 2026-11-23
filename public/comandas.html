@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Comandas · Punto Cero</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/carta.css?v=2">
+  <link rel="stylesheet" href="/css/admin.css?v=2">
+  <link rel="stylesheet" href="/css/comandas.css?v=2">
+  <script type="module" src="/js/comandas.js?v=2"></script>
+</head>
+<body>
+  <div class="checker top-checker" aria-hidden="true"></div>
+  <header class="wrap orders-header">
+    <a href="/admin">← Editar carta</a>
+    <strong>Punto Cero <span>×</span> La Glotona</strong>
+  </header>
+  <main class="wrap orders-main">
+    <div class="orders-heading">
+      <h1>Comandas</h1>
+      <button class="secondary" type="button" id="logout" hidden>Salir</button>
+    </div>
+    <div id="access-feedback" class="orders-feedback" role="status">Comprobando el acceso…</div>
+    <button class="secondary" type="button" id="retry-access" hidden>Volver a comprobar el acceso</button>
+    <section id="login-panel" class="access-panel" aria-labelledby="access-heading" hidden>
+      <h2 id="access-heading">Acceso de propietaria</h2>
+      <form id="login-form" method="post">
+        <label for="access-code">Código de acceso</label>
+        <input type="password" id="access-code" autocomplete="current-password" maxlength="200" required>
+        <button class="primary" type="submit">Entrar a comandas</button>
+      </form>
+    </section>
+    <div id="workspace" hidden>
+      <section class="orders-card floor" aria-labelledby="floor-heading">
+        <div class="orders-section-heading">
+          <h2 id="floor-heading">Mesas</h2>
+          <button class="secondary" id="refresh-tables" type="button">Actualizar</button>
+        </div>
+        <p id="floor-feedback" class="orders-feedback" role="status"></p>
+        <ul id="table-grid" class="table-grid" aria-label="Ocupación de mesas"></ul>
+        <div class="table-actions">
+          <p id="selected-table-account" class="orders-feedback" role="status"></p>
+          <button class="primary" id="open-bill" type="button" hidden>Ver cuenta y cobrar</button>
+          <button class="secondary" id="resume-payment" type="button" hidden>Revisar cobro pendiente</button>
+        </div>
+        <details class="table-settings">
+          <summary>Configurar mesas</summary>
+          <form id="table-settings-form" method="post">
+            <label>Número de mesas <input id="table-count" type="number" min="1" max="100" step="1" required></label>
+            <button class="secondary" id="save-table-count" type="submit" disabled>Guardar</button>
+          </form>
+          <p id="table-settings-feedback" class="orders-feedback" role="status"></p>
+        </details>
+      </section>
+      <div class="orders-workspace">
+        <section class="orders-card catalog" aria-labelledby="catalog-heading">
+          <div class="orders-section-heading">
+            <h2 id="catalog-heading">Productos</h2>
+            <a href="#draft-heading" id="draft-link" hidden>Ver comanda <span id="draft-count"></span></a>
+          </div>
+          <div class="catalog-filters">
+            <label>Buscar producto
+              <input type="search" id="product-search" placeholder="Nombre del producto" autocomplete="off">
+            </label>
+            <label>Carpeta
+              <select id="category-filter"><option value="">Todas las carpetas</option></select>
+            </label>
+          </div>
+          <p id="catalog-feedback" class="orders-feedback" role="status"></p>
+          <ul id="products" class="catalog-list" aria-label="Productos disponibles"></ul>
+          <div class="catalog-actions">
+            <button type="button" class="secondary" id="more-products" hidden>Ver más productos</button>
+            <button type="button" class="secondary" id="refresh-catalog">Actualizar carta</button>
+          </div>
+          <span id="catalog-announcement" class="sr-only" role="status"></span>
+        </section>
+        <section class="orders-card draft" aria-labelledby="draft-heading">
+          <h2 id="draft-heading" tabindex="-1">Nueva comanda</h2>
+          <form id="draft-form" method="post">
+            <fieldset id="draft-fields">
+              <legend class="sr-only">Datos de la comanda</legend>
+              <fieldset class="segmented" id="service-selector">
+                <legend>Servicio</legend>
+                <label><input type="radio" name="service" value="table" checked> Mesa</label>
+                <label><input type="radio" name="service" value="pickup"> Para recoger</label>
+                <label><input type="radio" name="service" value="delivery"> A domicilio</label>
+              </fieldset>
+              <p id="table-selection" class="orders-feedback table-selection"></p>
+              <fieldset id="pickup-fields" hidden>
+                <label class="field">Referencia de recogida (opcional)
+                  <input id="pickup-reference" maxlength="80" placeholder="Nombre o indicaciones para barra" autocomplete="off">
+                </label>
+              </fieldset>
+              <fieldset id="delivery-fields" hidden disabled>
+                <label class="field">Zona de reparto
+                  <select id="delivery-zone" required>
+                    <option value="">Selecciona la zona</option>
+                    <option value="la-barca">La Barca · 2,00 €</option>
+                    <option value="mc">MC · 3,00 €</option>
+                  </select>
+                </label>
+                <label class="field">Dirección
+                  <input id="delivery-address" maxlength="200" autocomplete="off" required>
+                </label>
+                <label class="field">Teléfono
+                  <input id="delivery-phone" type="tel" maxlength="32" autocomplete="off" required>
+                </label>
+                <label class="field">Forma de pago
+                  <select id="delivery-payment" required>
+                    <option value="">Selecciona el pago</option>
+                    <option value="change">Efectivo con cambio</option>
+                    <option value="card">Tarjeta</option>
+                    <option value="exact">Efectivo con importe exacto</option>
+                  </select>
+                </label>
+                <label class="field" id="cash-tender-label" hidden>Importe que entrega (opcional, €)
+                  <input id="cash-tender" type="text" inputmode="decimal" maxlength="18" placeholder="20,00" autocomplete="off" disabled>
+                </label>
+              </fieldset>
+              <p class="orders-empty" id="empty-draft">Selecciona los productos de la carta.</p>
+              <ul id="draft-lines" class="draft-lines" aria-label="Productos de la comanda"></ul>
+              <label class="field">Nota general <span class="sr-only">opcional</span>
+                <textarea id="order-note" maxlength="300" rows="2" placeholder="Indicaciones para cocina o barra"></textarea>
+              </label>
+            </fieldset>
+            <div id="delivery-summary" class="charge-summary" hidden>
+              <div><span>Productos</span><output id="order-subtotal"></output></div>
+              <div><span>Reparto</span><output id="delivery-fee"></output></div>
+              <div id="change-row" hidden><span>Cambio</span><output id="delivery-change"></output></div>
+            </div>
+            <div class="draft-total"><span>Total</span><output id="order-total" aria-live="polite">0,00 €</output></div>
+            <p id="draft-feedback" class="orders-feedback" role="status"></p>
+            <p id="pending-submission" class="draft-pending" hidden>El envío anterior está pendiente de confirmación. Reintenta el envío desde esta pestaña para usar la misma referencia.</p>
+            <button class="primary submit-order" id="submit-order" type="submit" disabled>Enviar a impresora</button>
+          </form>
+        </section>
+      </div>
+      <section class="orders-card history" aria-labelledby="history-heading">
+        <div class="orders-section-heading">
+          <h2 id="history-heading">Comandas recientes</h2>
+          <button class="secondary" id="refresh-orders" type="button">Actualizar</button>
+        </div>
+        <p id="history-feedback" class="orders-feedback" role="status"></p>
+        <p id="history-action-feedback" class="orders-feedback" role="status"></p>
+        <ul class="history-list" id="orders"></ul>
+      </section>
+    </div>
+  </main>
+  <dialog class="editor billing-dialog" id="billing-dialog" aria-labelledby="billing-heading">
+    <header class="editor-title">
+      <h2 id="billing-heading">Cuenta</h2>
+      <button class="plain-close" id="close-bill" type="button" aria-label="Cerrar cuenta">×</button>
+    </header>
+    <p id="billing-feedback" class="orders-feedback" role="status"></p>
+    <div id="bill-details" hidden>
+      <dl class="bill-totals">
+        <div><dt>Total</dt><dd id="bill-total"></dd></div>
+        <div><dt>Cobrado</dt><dd id="bill-paid"></dd></div>
+        <div><dt>Pendiente</dt><dd id="bill-balance"></dd></div>
+      </dl>
+      <details><summary>Rondas de esta cuenta</summary><ol class="bill-list" id="bill-orders"></ol></details>
+      <details id="bill-payments-details" hidden><summary>Cobros registrados</summary><ol class="bill-list" id="bill-payments"></ol></details>
+    </div>
+    <form id="bill-form" method="post" hidden>
+      <fieldset id="bill-split-controls" class="segmented">
+        <legend>Repartir la cuenta</legend>
+        <label><input type="radio" name="billing-mode" value="full" checked> Todo lo pendiente</label>
+        <label><input type="radio" name="billing-mode" value="equal"> Partes iguales</label>
+        <label><input type="radio" name="billing-mode" value="custom"> Importe libre</label>
+      </fieldset>
+      <div id="bill-equal" hidden>
+        <div class="split-controls">
+          <label>Número de partes <input id="bill-parts" type="number" min="2" max="50" step="1" value="2"></label>
+          <button class="secondary" type="button" id="calculate-split">Calcular reparto</button>
+        </div>
+        <ul id="bill-part-list" class="split-list" aria-label="Partes de la cuenta"></ul>
+      </div>
+      <label class="field" id="bill-custom-label" hidden>Importe que has cobrado (€)
+        <input id="bill-custom" type="text" inputmode="decimal" maxlength="18" placeholder="5,00" autocomplete="off">
+      </label>
+      <fieldset id="bill-method" class="segmented">
+        <legend>Forma de pago</legend>
+        <label><input type="radio" name="bill-method" value="cash" required> Efectivo</label>
+        <label><input type="radio" name="bill-method" value="card" required> Tarjeta</label>
+      </fieldset>
+      <p class="orders-feedback" id="bill-instructions">Registra el cobro cuando hayas recibido el efectivo o confirmado el pago en el datáfono.</p>
+      <p class="draft-pending" id="bill-pending" hidden></p>
+      <button class="primary submit-order" id="record-payment" type="submit">Registrar cobro</button>
+    </form>
+  </dialog>
+  <dialog class="editor reprint-dialog" id="reprint-dialog" aria-labelledby="reprint-heading">
+    <form id="reprint-form" method="dialog">
+      <h2 id="reprint-heading">Reimprimir comanda</h2>
+      <p id="reprint-reference"></p>
+      <p>Comprueba primero el papel y la cola de impresión de Windows. Se enviará otro ticket marcado como copia.</p>
+      <div class="editor-actions">
+        <button class="secondary" value="cancel" autofocus>Cancelar</button>
+        <button class="primary" value="reprint">Reimprimir copia</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

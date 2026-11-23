@@ -1,0 +1,2991 @@
+{
+  "categories": [
+    {
+      "id": "frias",
+      "name": "Tapas frías",
+      "group": "comida",
+      "note": "Cesta de pan y picos: 1,00 € por persona."
+    },
+    {
+      "id": "calientes",
+      "name": "Tapas calientes",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "ensaladas",
+      "name": "Ensaladas",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "patatas",
+      "name": "Patatas y nachos",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "pescados",
+      "name": "Pescados",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "carnes",
+      "name": "Carnes",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "burgers",
+      "name": "Hamburguesas",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "premium",
+      "name": "Burgers premium",
+      "group": "comida",
+      "note": "Todas acompañadas de patatas gajo."
+    },
+    {
+      "id": "sandwich",
+      "name": "Sándwiches",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "baguettes",
+      "name": "Baguettes",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "paninis",
+      "name": "Paninis y bocapizza",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "pizzas",
+      "name": "Pizzas",
+      "group": "comida",
+      "note": "Todas con base de tomate. Avísanos si la quieres cambiar. Ingredientes disponibles: Chorizo, champiñones, bacon, roquefort, jamón york, queso, cebolla, carne picada, pollo, pimientos, carne kebab, salchichas, atún, piña, maíz, jalapeños y anchoas. Salsas: nata, yogur, barbacoa, kebab, brava o gaucha."
+    },
+    {
+      "id": "infantil",
+      "name": "Menú infantil",
+      "group": "comida",
+      "note": ""
+    },
+    {
+      "id": "cafes",
+      "name": "Cafés e infusiones",
+      "group": "meriendas",
+      "note": ""
+    },
+    {
+      "id": "dulces",
+      "name": "Dulces y meriendas",
+      "group": "meriendas",
+      "note": ""
+    },
+    {
+      "id": "helados",
+      "name": "Batidos y helados",
+      "group": "meriendas",
+      "note": "Toppings: Filipinos blancos, trocitos de Kinder, Oreos, Lacasitos, galleta Lotus o pistacho."
+    },
+    {
+      "id": "refrescos",
+      "name": "Refrescos y zumos",
+      "group": "bebidas",
+      "note": ""
+    },
+    {
+      "id": "energeticas",
+      "name": "Bebidas energéticas",
+      "group": "bebidas",
+      "note": ""
+    },
+    {
+      "id": "cervezas",
+      "name": "Cervezas",
+      "group": "bebidas",
+      "note": ""
+    },
+    {
+      "id": "vinos",
+      "name": "Vinos",
+      "group": "bebidas",
+      "note": ""
+    },
+    {
+      "id": "espumosos",
+      "name": "Frizzantes y espumosos",
+      "group": "bebidas",
+      "note": ""
+    },
+    {
+      "id": "copas",
+      "name": "Copas y licores",
+      "group": "bebidas",
+      "note": "Cubatas con refresco a elegir. Power King 250 ml: +0,50 €. Red Bull 250 ml o Monster 250 ml: +1,00 €."
+    },
+    {
+      "id": "cocteles",
+      "name": "Cócteles artesanales",
+      "group": "bebidas",
+      "note": ""
+    }
+  ],
+  "items": [
+    {
+      "id": "p001",
+      "category": "frias",
+      "name": "Papas aliñás",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p002",
+      "category": "frias",
+      "name": "Papas alioli",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p003",
+      "category": "frias",
+      "name": "Ensaladilla",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p004",
+      "category": "frias",
+      "name": "Gildas de queso y cecina",
+      "description": "Acompañadas de papas de perol.",
+      "prices": [
+        {
+          "label": "1 unidad",
+          "cents": 200
+        },
+        {
+          "label": "5 unidades",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p005",
+      "category": "calientes",
+      "name": "Tiras de pollo Kentucky con papas",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p006",
+      "category": "calientes",
+      "name": "Fingers de pollo con papas",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p007",
+      "category": "calientes",
+      "name": "Alitas crujientes con papas",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p008",
+      "category": "calientes",
+      "name": "Lagrimitas de pollo con papas",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p009",
+      "category": "calientes",
+      "name": "Patatas bravas",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p010",
+      "category": "calientes",
+      "name": "Croquetas con papas",
+      "description": "Rabo de toro, gambas al ajillo, puchero, cocido, chorizo, merluza y gambas o jamón. Un sabor o variadas.",
+      "prices": [
+        {
+          "label": "5 unidades",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p011",
+      "category": "ensaladas",
+      "name": "Mixta",
+      "description": "Lechuga, tomate, cebolla, zanahoria, maíz y atún.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 650
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p012",
+      "category": "ensaladas",
+      "name": "César",
+      "description": "Lechuga, queso, pollo empanado, cebolla crujiente, picatostes y salsa César.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 850
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p013",
+      "category": "ensaladas",
+      "name": "Rulo",
+      "description": "Lechuga, queso de cabra fresco, nueces y vinagre balsámico.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 850
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p014",
+      "category": "patatas",
+      "name": "Patatas bacon y cheddar",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 800
+        },
+        {
+          "label": "Grande",
+          "cents": 990
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p015",
+      "category": "patatas",
+      "name": "Patatas kebab",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 800
+        },
+        {
+          "label": "Grande",
+          "cents": 990
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p016",
+      "category": "patatas",
+      "name": "Patatas con carne y queso",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 800
+        },
+        {
+          "label": "Grande",
+          "cents": 990
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p017",
+      "category": "patatas",
+      "name": "Patatas roquefort",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 800
+        },
+        {
+          "label": "Grande",
+          "cents": 990
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p018",
+      "category": "patatas",
+      "name": "Patatas carbonara",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 800
+        },
+        {
+          "label": "Grande",
+          "cents": 990
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p019",
+      "category": "patatas",
+      "name": "Patatas con queso",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 650
+        },
+        {
+          "label": "Grande",
+          "cents": 800
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p020",
+      "category": "patatas",
+      "name": "Nachos",
+      "description": "Con queso, carne picada o beicon, cheddar o barbacoa. Guacamole: +1,00 € media / +1,50 € grande. Pico de gallo: +1,50 € media / +2,00 € grande.",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 650
+        },
+        {
+          "label": "Grande",
+          "cents": 1100
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p021",
+      "category": "pescados",
+      "name": "Choco frito",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 650
+        },
+        {
+          "label": "Entera",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p022",
+      "category": "pescados",
+      "name": "Cazón en adobo",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 650
+        },
+        {
+          "label": "Entera",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p023",
+      "category": "pescados",
+      "name": "Tortita de camarones",
+      "description": "",
+      "prices": [
+        {
+          "label": "1 unidad",
+          "cents": 200
+        },
+        {
+          "label": "3 unidades",
+          "cents": 500
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p024",
+      "category": "pescados",
+      "name": "Boquerones fritos",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 550
+        },
+        {
+          "label": "Entera",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p025",
+      "category": "pescados",
+      "name": "Puntillitas",
+      "description": "",
+      "prices": [
+        {
+          "label": "Media",
+          "cents": 600
+        },
+        {
+          "label": "Entera",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p026",
+      "category": "pescados",
+      "name": "Tiras de gallo empanado con papas",
+      "description": "",
+      "prices": [
+        {
+          "label": "Cesta",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p027",
+      "category": "pescados",
+      "name": "Variado de pescado",
+      "description": "",
+      "prices": [
+        {
+          "label": "Entera",
+          "cents": 2400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p028",
+      "category": "carnes",
+      "name": "Aneto",
+      "description": "Con papas y salsa a la pimienta o roquefort.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p029",
+      "category": "carnes",
+      "name": "Aneto XXL",
+      "description": "Con papas, ensalada y salsa pimienta o roquefort.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1800
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p030",
+      "category": "carnes",
+      "name": "Capricho de novia",
+      "description": "Carne picada, beicon y queso. Con papas, ensalada y salsa pimienta o roquefort.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1500
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p031",
+      "category": "carnes",
+      "name": "Capricho del novio",
+      "description": "Relleno de queso de cabra y cebolla caramelizada. Con papas, ensalada y mermelada de pimientos.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1500
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p032",
+      "category": "carnes",
+      "name": "Filete de lomo o pollo y beicon",
+      "description": "Con papas o ensalada.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 750
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p033",
+      "category": "carnes",
+      "name": "Filete de pollo empanado",
+      "description": "Con papas o ensalada.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 800
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p034",
+      "category": "carnes",
+      "name": "Pinchito de pollo",
+      "description": "Con papas o ensalada.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 750
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p035",
+      "category": "burgers",
+      "name": "Angus o Retinto (200 g)",
+      "description": "Con patatas.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p036",
+      "category": "burgers",
+      "name": "Simple de pollo o mixta",
+      "description": "Solo queso.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p037",
+      "category": "burgers",
+      "name": "Completa de pollo o mixta",
+      "description": "Queso, beicon, huevo, cebolla, lechuga y tomate.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 550
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p038",
+      "category": "burgers",
+      "name": "Pollo o mixta con queso, beicon y huevo",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p039",
+      "category": "burgers",
+      "name": "Hamburguesa XXL",
+      "description": "Dos hamburguesas de pollo o mixtas, queso, beicon, huevo, cebolla, lechuga y tomate.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 850
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p040",
+      "category": "premium",
+      "name": "La Rulo",
+      "description": "Buey-vaca, cebolla caramelizada casera, mermelada de pimientos casera y rulo de cabra.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1100
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p041",
+      "category": "premium",
+      "name": "La Crispi",
+      "description": "Hamburguesa crispi, dos quesos, doble beicon, huevo, lechuga y salsa miel-mostaza con arándanos.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 900
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p042",
+      "category": "premium",
+      "name": "La Americana",
+      "description": "Ternera, dos quesos, doble beicon, huevo, aros de cebolla, tomate, lechuga y salsa barbacoa.",
+      "prices": [
+        {
+          "label": "1 carne",
+          "cents": 1000
+        },
+        {
+          "label": "2 carnes",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p043",
+      "category": "premium",
+      "name": "La Griega",
+      "description": "Hamburguesa casera de pollo rellena de queso cheddar, huevo, doble beicon, dos quesos, peperoni y salsa griega.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p044",
+      "category": "premium",
+      "name": "La Picante",
+      "description": "Pollo picante y jalapeños. Consulta al personal el resto de ingredientes.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": "Parte de la descripción queda tapada en el PDF. Revisar salsa cheddar y trocitos de beicon antes de completar."
+    },
+    {
+      "id": "p045",
+      "category": "premium",
+      "name": "La Kebab",
+      "description": "Doble hamburguesa, lechuga, tomate, cebolla, doble queso, salsa brava y salsa kebab.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 900
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p046",
+      "category": "premium",
+      "name": "La 4 Quesos",
+      "description": "Buey-vaca (200 g), queso roquefort, toque de salsa roquefort, mozzarella, queso de cabra, queso cheddar y loncha de beicon.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p047",
+      "category": "premium",
+      "name": "La Morenita",
+      "description": "Buey-vaca (200 g), guacamole, salsa cheddar y mermelada de beicon casera.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p048",
+      "category": "premium",
+      "name": "La Doritos",
+      "description": "Ternera, triángulos rellenos de queso sabor Doritos, cebolla crujiente y salsa cheddar.",
+      "prices": [
+        {
+          "label": "1 carne",
+          "cents": 1000
+        },
+        {
+          "label": "2 carnes",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p049",
+      "category": "premium",
+      "name": "La Pulled Pork",
+      "description": "Doble hamburguesa de cerdo, aros de cebolla, carne deshilachada de barbacoa, mayonesa y queso.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p050",
+      "category": "premium",
+      "name": "La Bigcero",
+      "description": "Triple hamburguesa de pollo, mixta o ternera, triple queso, huevo, lechuga y tomate. Consulta el resto de ingredientes.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": "La parte final de la descripción está parcialmente tapada: revisar beicon, cebolla y salsa especial Big."
+    },
+    {
+      "id": "p051",
+      "category": "sandwich",
+      "name": "Club",
+      "description": "Ensalada de atún, jamón york, huevo, queso y beicon. Con papas fritas.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 750
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p052",
+      "category": "sandwich",
+      "name": "Club XXL",
+      "description": "Acompañado de patatas fritas.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p053",
+      "category": "sandwich",
+      "name": "Mixto",
+      "description": "Jamón york y queso.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "07782349-8e0b-4327-abf9-1c256634b5bc.jpg",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p054",
+      "category": "sandwich",
+      "name": "Ensalada de pollo",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p055",
+      "category": "baguettes",
+      "name": "Pollo empanado",
+      "description": "Queso, beicon y huevo.",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p056",
+      "category": "baguettes",
+      "name": "Serrano",
+      "description": "Pollo o lomo, beicon y pimiento.",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p057",
+      "category": "baguettes",
+      "name": "Tortilla francesa",
+      "description": "Queso, lechuga, cebolla y tomate.",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p058",
+      "category": "baguettes",
+      "name": "Hamburguesa",
+      "description": "Queso, huevo, beicon, cebolla, tomate y lechuga.",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p059",
+      "category": "baguettes",
+      "name": "Lomo adobado",
+      "description": "Ensalada de atún, queso y huevo.",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p060",
+      "category": "baguettes",
+      "name": "Ensalada de pollo",
+      "description": "",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p061",
+      "category": "baguettes",
+      "name": "Carne deshilachada con queso",
+      "description": "",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 800
+        },
+        {
+          "label": "XXL",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p062",
+      "category": "baguettes",
+      "name": "Carne kebab",
+      "description": "Queso y salsa.",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 800
+        },
+        {
+          "label": "XXL",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p063",
+      "category": "baguettes",
+      "name": "Beicon y queso",
+      "description": "",
+      "prices": [
+        {
+          "label": "Normal",
+          "cents": 750
+        },
+        {
+          "label": "XXL",
+          "cents": 950
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p064",
+      "category": "paninis",
+      "name": "Panini · Jamón york y queso",
+      "description": "Ingrediente extra: +1,00 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p065",
+      "category": "paninis",
+      "name": "Panini · Beicon y queso",
+      "description": "Ingrediente extra: +1,00 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p066",
+      "category": "paninis",
+      "name": "Panini · Chorizo y queso",
+      "description": "Ingrediente extra: +1,00 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p067",
+      "category": "paninis",
+      "name": "Panini · Peperoni y queso",
+      "description": "Ingrediente extra: +1,00 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p068",
+      "category": "paninis",
+      "name": "Panini · Salchicha y queso",
+      "description": "Ingrediente extra: +1,00 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p069",
+      "category": "paninis",
+      "name": "Bocapizza",
+      "description": "Base de tomate y queso. Incluye una salsa y dos ingredientes. Ingrediente extra: +1,00 € cada uno. Chorizo, champiñones, bacon, roquefort, jamón york, queso, cebolla, carne picada, pollo, pimientos, carne kebab, salchichas, atún, piña, maíz, jalapeños y anchoas. Salsas: nata, yogur, barbacoa, kebab, brava o gaucha.",
+      "prices": [
+        {
+          "label": "Sin papas",
+          "cents": 1000
+        },
+        {
+          "label": "Con papas",
+          "cents": 1150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p070",
+      "category": "pizzas",
+      "name": "Margarita",
+      "description": "",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p071",
+      "category": "pizzas",
+      "name": "Pepperoni",
+      "description": "",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p072",
+      "category": "pizzas",
+      "name": "4 quesos",
+      "description": "Mezcla de quesos y queso roquefort.",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p073",
+      "category": "pizzas",
+      "name": "Jamón york y queso",
+      "description": "",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p074",
+      "category": "pizzas",
+      "name": "Barbacoa",
+      "description": "Carne picada, salsa BBQ y queso.",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p075",
+      "category": "pizzas",
+      "name": "Carbonara",
+      "description": "Nata, beicon y queso.",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p076",
+      "category": "pizzas",
+      "name": "Kebab",
+      "description": "Carne kebab, salsa kebab y queso.",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p077",
+      "category": "pizzas",
+      "name": "Griega",
+      "description": "Peperoni, carne kebab, salsa yogur y queso.",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 1000
+        },
+        {
+          "label": "33 cm",
+          "cents": 1400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p078",
+      "category": "pizzas",
+      "name": "Pizza al gusto",
+      "description": "Dos ingredientes y una salsa.",
+      "prices": [
+        {
+          "label": "26 cm",
+          "cents": 900
+        },
+        {
+          "label": "33 cm",
+          "cents": 1300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p079",
+      "category": "infantil",
+      "name": "Menú infantil",
+      "description": "A elegir: mini pizza (+0,50 €), hamburguesa simple, hamburguesa empanada, nuggets, sándwich mixto o perrito caliente. Incluye patatas fritas, bebida (zumo, batido o agua), postre y regalo sorpresa. Hamburguesas y perrito sin queso.",
+      "prices": [
+        {
+          "label": "Menú",
+          "cents": 650
+        },
+        {
+          "label": "Con mini pizza",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p080",
+      "category": "cafes",
+      "name": "Café de máquina o descafeinado",
+      "description": "Descafeinado de máquina o de sobre.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 130
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p081",
+      "category": "cafes",
+      "name": "ColaCao",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p082",
+      "category": "cafes",
+      "name": "Cappuccino con sirope",
+      "description": "Caramel, vainilla, chocolate, chocolate KitKat o clásico.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p083",
+      "category": "cafes",
+      "name": "Cappuccino con nata y sirope",
+      "description": "Caramel, vainilla, chocolate, chocolate KitKat o clásico.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 230
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p084",
+      "category": "cafes",
+      "name": "Té frío de piña y coco",
+      "description": "Con hielo.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 180
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p085",
+      "category": "cafes",
+      "name": "Tés en pirámide",
+      "description": "Hibisco con frutos rojos, rooibos canela y naranja, rooibos vainilla, té verde jengibre y limón, manzana con naranja y cúrcuma, frutas del bosque, té verde, té negro English Breakfast, té rojo o menta con hierbabuena. Sobre extra: +0,50 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p086",
+      "category": "cafes",
+      "name": "Infusiones y tés tradicionales",
+      "description": "Menta poleo, manzanilla, té de mate, jengibre con limón, cúrcuma o tila. Sobre extra: +0,30 €.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p087",
+      "category": "dulces",
+      "name": "Croissant relleno + topping",
+      "description": "Relleno: chocolate blanco, Nutella, Kinder, pistacho o Lotus. Topping: Filipinos blancos, Oreo, galleta Lotus, pistacho o trocitos de Kinder.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 350
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p088",
+      "category": "dulces",
+      "name": "Croissant relleno + helado",
+      "description": "Relleno: chocolate blanco, Nutella, Kinder, pistacho o Lotus. Helado: almendrado Lotus, almendrado pistacho, almendrado blanco, almendrado negro, blanco sin almendras o negro sin almendras.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p089",
+      "category": "dulces",
+      "name": "Crepes",
+      "description": "Relleno: Nutella, chocolate blanco, Kinder Bueno o pistacho.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 500
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p090",
+      "category": "dulces",
+      "name": "Gofres",
+      "description": "Salsa: chocolate blanco, Nutella, Kinder o pistacho.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p091",
+      "category": "dulces",
+      "name": "Tarta de queso",
+      "description": "Con chocolate o sirope a elegir.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 500
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p092",
+      "category": "helados",
+      "name": "Batidos tradicionales",
+      "description": "Fresa, chocolate o vainilla. Servidos con nata y sirope.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 180
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p093",
+      "category": "helados",
+      "name": "BatiCero",
+      "description": "Batido de helado. Consulta disponibilidad de sabores. Incluye nata y un topping.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 450
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p094",
+      "category": "helados",
+      "name": "Copa de helado",
+      "description": "Incluye nata y sirope.",
+      "prices": [
+        {
+          "label": "1 bola",
+          "cents": 250
+        },
+        {
+          "label": "2 bolas",
+          "cents": 450
+        },
+        {
+          "label": "3 bolas",
+          "cents": 650
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p095",
+      "category": "refrescos",
+      "name": "Coca-Cola",
+      "description": "Original, Zero o Zero Zero.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p096",
+      "category": "refrescos",
+      "name": "Fanta Naranja",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p097",
+      "category": "refrescos",
+      "name": "Kas",
+      "description": "Naranja, limón o manzana.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p098",
+      "category": "refrescos",
+      "name": "Sprite / Seven Up",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p099",
+      "category": "refrescos",
+      "name": "Aquarius",
+      "description": "Limón o naranja.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p100",
+      "category": "refrescos",
+      "name": "Limonada Don Simón Light",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p101",
+      "category": "refrescos",
+      "name": "Royal Bliss",
+      "description": "Frutos rojos o limón.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p102",
+      "category": "refrescos",
+      "name": "Tónica Schweppes",
+      "description": "Original o Zero.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p103",
+      "category": "refrescos",
+      "name": "Tinto La Casera",
+      "description": "Blanca, limón o limón 0,0.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p104",
+      "category": "refrescos",
+      "name": "Tinto casero",
+      "description": "Hecho al momento, con limón o naranja.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p105",
+      "category": "refrescos",
+      "name": "Zumo",
+      "description": "Piña o melocotón.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p106",
+      "category": "energeticas",
+      "name": "Power King 250 ml",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p107",
+      "category": "energeticas",
+      "name": "Power King 500 ml",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p108",
+      "category": "energeticas",
+      "name": "Red Bull 250 ml",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p109",
+      "category": "energeticas",
+      "name": "Monster Chico 250 ml",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p110",
+      "category": "energeticas",
+      "name": "Monster 500 ml",
+      "description": "Consulta disponibilidad de sabores.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p111",
+      "category": "energeticas",
+      "name": "Burn 500 ml",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p112",
+      "category": "cervezas",
+      "name": "Caña de grifo",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 160
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p113",
+      "category": "cervezas",
+      "name": "Jarra Don Quijote",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p114",
+      "category": "cervezas",
+      "name": "Jarra Sancho Panza",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p115",
+      "category": "cervezas",
+      "name": "Cruzcampo Shandy",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p116",
+      "category": "cervezas",
+      "name": "Cruzcampo / Estrella Galicia",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p117",
+      "category": "cervezas",
+      "name": "Ladrón de Manzanas",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p118",
+      "category": "cervezas",
+      "name": "Cruzcampo 0,0 / Heineken 0,0",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p119",
+      "category": "cervezas",
+      "name": "Cruzcampo 0,0 Tostada",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p120",
+      "category": "cervezas",
+      "name": "Cerveza sin gluten",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p121",
+      "category": "cervezas",
+      "name": "Heineken con alcohol",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p122",
+      "category": "cervezas",
+      "name": "Voll-Damm",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p123",
+      "category": "cervezas",
+      "name": "Alhambra Reserva 1925 (verde)",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p124",
+      "category": "cervezas",
+      "name": "El Águila Sin Filtrar",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p125",
+      "category": "cervezas",
+      "name": "Cruzcampo Gran Reserva 1904",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p126",
+      "category": "cervezas",
+      "name": "1906 · Especial / Red Vintage / Black Coupage",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p127",
+      "category": "cervezas",
+      "name": "Cruzcampo Radler",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 250
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p128",
+      "category": "cervezas",
+      "name": "Coronita",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p129",
+      "category": "cervezas",
+      "name": "Salitos Azul",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p130",
+      "category": "cervezas",
+      "name": "Desperados",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 300
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p131",
+      "category": "cervezas",
+      "name": "Estrella Especial (62 cl)",
+      "description": "",
+      "prices": [
+        {
+          "label": "",
+          "cents": 350
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p133",
+      "category": "vinos",
+      "name": "Tierra Blanca Seco",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 300
+        },
+        {
+          "label": "Botella",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p134",
+      "category": "vinos",
+      "name": "Tierra Blanca Semidulce",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 300
+        },
+        {
+          "label": "Botella",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p135",
+      "category": "vinos",
+      "name": "Maestrante Semidulce (Barbadillo)",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 300
+        },
+        {
+          "label": "Botella",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p136",
+      "category": "vinos",
+      "name": "Arábez",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 300
+        },
+        {
+          "label": "Botella",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p137",
+      "category": "vinos",
+      "name": "Berberana Selección Oro",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 300
+        },
+        {
+          "label": "Botella",
+          "cents": 1200
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p138",
+      "category": "vinos",
+      "name": "Beronia Crianza (D.O.Ca. Rioja)",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 300
+        },
+        {
+          "label": "Botella",
+          "cents": 1500
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p139",
+      "category": "vinos",
+      "name": "Conde Noble",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 250
+        },
+        {
+          "label": "Botella",
+          "cents": 900
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p140",
+      "category": "vinos",
+      "name": "Viña Peña Tempranillo",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 250
+        },
+        {
+          "label": "Botella",
+          "cents": 900
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p141",
+      "category": "vinos",
+      "name": "Fino",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p142",
+      "category": "vinos",
+      "name": "Manzanilla",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p143",
+      "category": "vinos",
+      "name": "Oloroso",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p144",
+      "category": "vinos",
+      "name": "Pedro Ximénez",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p145",
+      "category": "vinos",
+      "name": "Solera 1847 Cream",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copa",
+          "cents": 180
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p146",
+      "category": "espumosos",
+      "name": "Staring Rosé",
+      "description": "Sabor cereza. 5,5 % vol.",
+      "prices": [
+        {
+          "label": "Botella",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p147",
+      "category": "espumosos",
+      "name": "Staring Gold",
+      "description": "Sabor melocotón. 5,5 % vol.",
+      "prices": [
+        {
+          "label": "Botella",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p148",
+      "category": "espumosos",
+      "name": "Frizzante Risa",
+      "description": "Moscatel de Alejandría.",
+      "prices": [
+        {
+          "label": "Botella",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p149",
+      "category": "espumosos",
+      "name": "Frizzante Manzana y Pera",
+      "description": "",
+      "prices": [
+        {
+          "label": "Botella",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p150",
+      "category": "espumosos",
+      "name": "Duna Spritz",
+      "description": "",
+      "prices": [
+        {
+          "label": "Botella",
+          "cents": 1000
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p151",
+      "category": "copas",
+      "name": "Whiskies estándar",
+      "description": "Johnnie Walker Red Label, Dewar’s White Label, Ballantine’s, J&B, DYC, DYC 8 años o Jim Beam.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p152",
+      "category": "copas",
+      "name": "Rones estándar",
+      "description": "Barceló, Brugal, Cacique, Ritual, Flor de Caña, Legendario, Negrita, Negrita Blanco, Bacardí o Bacardí Limón.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p153",
+      "category": "copas",
+      "name": "Ginebras estándar",
+      "description": "Rives, Rives 1880, Rives Exotic, Larios, Larios 12, Larios Rosé (Pink), Larios Citrus, Bombay, Bombay Sapphire, Seagram’s, Beefeater, Beefeater Pink, Tanqueray, Tanqueray 0.0, Puerto de Indias Exotic, Puerto de Indias Strawberry o Gin Botanic.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p154",
+      "category": "copas",
+      "name": "Otros combinados",
+      "description": "Malibú, Absolut Vodka, Licor 43, Amaretto Disaronno, Jägermeister o Vodka Caramelo.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 600
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p155",
+      "category": "copas",
+      "name": "Whiskies premium",
+      "description": "Johnnie Walker Black Label o Jack Daniel’s.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 800
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p156",
+      "category": "copas",
+      "name": "Ron premium",
+      "description": "Barceló Imperial.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 800
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p157",
+      "category": "copas",
+      "name": "Ginebra premium",
+      "description": "Beefeater Black.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 800
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p158",
+      "category": "copas",
+      "name": "Licor de Hierbas Ruavieja",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p159",
+      "category": "copas",
+      "name": "Crema Gressy",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p160",
+      "category": "copas",
+      "name": "Crema de Pistacho y Chocolate Blanco",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p161",
+      "category": "copas",
+      "name": "Crema de Galleta de Caramelo",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p162",
+      "category": "copas",
+      "name": "Vodka Caramelo",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p163",
+      "category": "copas",
+      "name": "Amaretto",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p164",
+      "category": "copas",
+      "name": "Licor 43",
+      "description": "",
+      "prices": [
+        {
+          "label": "Copazo con hielo",
+          "cents": 400
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p165",
+      "category": "copas",
+      "name": "Chupitos variados",
+      "description": "Pregunta por disponibilidad al personal.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 150
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p166",
+      "category": "cocteles",
+      "name": "Mojito de sabores",
+      "description": "Clásico, maracuyá, mango, arándano, fresa, kiwi, melón o coco.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p167",
+      "category": "cocteles",
+      "name": "Piña Colada & Chirimoya Colada",
+      "description": "Ron, crema de coco y zumo natural.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p168",
+      "category": "cocteles",
+      "name": "Limonada Especial con alcohol",
+      "description": "Limonada casera, azúcar moreno, toque de alcohol y hielo picado.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p169",
+      "category": "cocteles",
+      "name": "Pantera Rosa",
+      "description": "Vodka, zumo de piña, nata, fresa y sirope.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p170",
+      "category": "cocteles",
+      "name": "Orgasmo",
+      "description": "Vodka, licor de galleta (opcional con licor de café), Baileys, Amaretto y nata. Decorado con nata montada y chocolate.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p171",
+      "category": "cocteles",
+      "name": "Muñeca",
+      "description": "Vodka, Amaretto, maracuyá, fresa y Seven Up.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p172",
+      "category": "cocteles",
+      "name": "Malibú Paraíso",
+      "description": "Malibú, ron blanco, leche, leche condensada, helado de vainilla y hielo picado.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p173",
+      "category": "cocteles",
+      "name": "Coronita P.C. Blue",
+      "description": "Cerveza Coronita, tequila, licor azul, jugo de lima y zumo de naranja.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p174",
+      "category": "cocteles",
+      "name": "Iguana Azul",
+      "description": "Tequila, licor azul, licor de limón y jugo.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p175",
+      "category": "cocteles",
+      "name": "Cielo Azul",
+      "description": "Tequila, licor azul y Seven Up.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p176",
+      "category": "cocteles",
+      "name": "San Francisco · sin alcohol",
+      "description": "Combinación frutal con granadina.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p177",
+      "category": "cocteles",
+      "name": "Cóctel Pistacho Cero",
+      "description": "Crema de pistacho, vodka, leche condensada, helado de vainilla y nata.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p178",
+      "category": "cocteles",
+      "name": "Cóctel Biscuit Lotus",
+      "description": "Crema de galleta caramelizada, Baileys, vodka, nata y sirope de caramelo.",
+      "prices": [
+        {
+          "label": "",
+          "cents": 700
+        }
+      ],
+      "photo": "",
+      "enabled": true,
+      "reviewNote": ""
+    },
+    {
+      "id": "p132",
+      "category": "cervezas",
+      "name": "Paulaner 500 ml",
+      "description": "",
+      "prices": [],
+      "photo": "",
+      "enabled": false,
+      "reviewNote": "El precio está tapado en la página 3 del PDF. Completar y activar cuando esté confirmado."
+    }
+  ],
+  "facilities": [],
+  "notice": "Nuestros platos pueden contener alérgenos o trazas. Consulta a nuestro personal para conocer los ingredientes."
+}

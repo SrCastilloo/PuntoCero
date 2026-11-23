@@ -1,0 +1,21 @@
+{
+  "name": "punto-cero-carta",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "npm run build && node tests/api.mjs && node --test tests/comandas.mjs tests/logs.mjs && node tests/qr.mjs",
+    "dev": "npm run build && wrangler pages dev dist --d1 DB=local-punto-cero --ip 127.0.0.1 --port 4173 --inspector-port 0 --compatibility-date=2026-05-01",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=punto-cero-la-glotona --no-bundle"
+  },
+  "dependencies": {
+    "qrcode-generator": "2.0.4",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.5",
+    "jsqr": "^1.4.0",
+    "wrangler": "4.92.0"
+  }
+}

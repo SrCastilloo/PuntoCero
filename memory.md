@@ -1,0 +1,12 @@
+# Memoria del proyecto
+
+- La carta pública está en [Punto Cero × La Glotona](https://punto-cero-la-glotona.pages.dev/carta). El panel original de edición utiliza un código de propietaria y la sesión del mismo dominio.
+- El paquete entregado de Netlify es un puente a la API de Cloudflare. El proyecto se ha preparado a partir del código fuente original de Cloudflare Pages, localizado junto al paquete de Netlify. Las vistas y recursos del paquete coinciden con el original en los ficheros que comparten.
+- La carta publicada, las fotos cargadas y las sesiones residen en la base D1 vinculada como `DB`. `src/seed.json` es el catálogo inicial que se usa si aún no hay carta guardada. Para actualizar el sitio existente se reutiliza su vínculo D1 y `ADMIN_CODE_HASH`.
+- `/comandas` utiliza el catálogo público del sitio y el acceso de propietaria. Las comandas y sus intentos de impresión se guardan en nuevas tablas de D1. El puente Windows consulta esas tablas mediante una API HTTPS con `PRINT_AGENT_TOKEN`.
+- El panel admite mesa, recogida y domicilio. Por defecto hay 14 mesas y su cantidad puede configurarse desde el panel. La primera comanda abre la cuenta y las siguientes conservan el mismo número. Los cobros parciales descontados en céntimos mantienen la mesa ocupada hasta liquidar la cuenta.
+- El reparto cuesta 200 céntimos en La Barca y 300 céntimos en MC. La dirección, el teléfono y las indicaciones de pago quedan en las rutas privadas. El diseño del ticket sigue la referencia de papel aportada por el negocio.
+- La POS-80USB se trata como una cola de impresión de Windows con el controlador del equipo. La confirmación corresponde al envío a la cola. Las incidencias que dejan dudas sobre la salida se revisan antes de solicitar una copia.
+- `/logs` usa el usuario único `LaGlotona` y una sesión independiente. El asistente guarda `LOG_ADMIN_PASSWORD_HASH` en `.dev.vars` o en Cloudflare. La web registra códigos operativos sin datos de los clientes. El puente envía señales con su token de impresora y conserva un registro local para revisar cortes de conexión.
+- Se han verificado la API con Miniflare y D1, el panel en navegador y el formato del ticket en Windows PowerShell con una simulación. La POS-80USB no estaba instalada en el equipo de prueba.
+- Esta entrega prepara el código local. La publicación, configuración del PC del local y prueba con papel quedan registradas en `TODO.md`.

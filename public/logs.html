@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Diagnóstico · Punto Cero</title>
+  <link rel="icon" href="/favicon.svg">
+  <link rel="stylesheet" href="/css/carta.css?v=2">
+  <link rel="stylesheet" href="/css/admin.css?v=2">
+  <link rel="stylesheet" href="/css/logs.css?v=1">
+  <script src="/js/logs.js?v=1" defer></script>
+</head>
+<body>
+  <div class="checker top-checker" aria-hidden="true"></div>
+  <header class="admin-header wrap">
+    <a href="/admin">← Editar carta</a>
+    <strong>Punto Cero <span>×</span> La Glotona</strong>
+  </header>
+  <main class="wrap admin-main">
+    <div class="diagnostics-heading">
+      <h1>Diagnóstico</h1>
+      <button class="secondary" id="diagnostics-logout" type="button" hidden>Salir</button>
+    </div>
+    <p id="diagnostics-access-feedback" class="diagnostics-feedback" role="status">Comprobando el acceso…</p>
+    <button class="secondary" type="button" id="diagnostics-retry-access" hidden>Volver a comprobar el acceso</button>
+    <section id="diagnostics-login" class="access-panel" aria-labelledby="diagnostics-access-heading" hidden>
+      <h2 id="diagnostics-access-heading">Acceso a diagnóstico</h2>
+      <form id="diagnostics-login-form" method="post">
+        <label for="diagnostics-username">Usuario</label>
+        <input id="diagnostics-username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required maxlength="100">
+        <label for="diagnostics-password">Contraseña</label>
+        <input id="diagnostics-password" type="password" autocomplete="current-password" required maxlength="512">
+        <button class="primary" id="diagnostics-sign-in" type="submit">Entrar</button>
+      </form>
+    </section>
+    <div id="diagnostics-workspace" hidden>
+      <div class="diagnostics-toolbar">
+        <p id="diagnostics-last-update" class="subtle">Esperando la primera lectura.</p>
+        <button class="secondary" type="button" id="diagnostics-refresh">Actualizar</button>
+      </div>
+      <p id="diagnostics-feedback" class="diagnostics-feedback" role="status"></p>
+      <section aria-labelledby="diagnostics-health-heading">
+        <h2 id="diagnostics-health-heading">Estado de impresión</h2>
+        <dl class="diagnostics-health">
+          <div class="diagnostics-card">
+            <dt>Puente de Windows</dt>
+            <dd><strong id="bridge-status">—</strong><span id="bridge-detail"></span></dd>
+          </div>
+          <div class="diagnostics-card">
+            <dt>En cola</dt>
+            <dd><strong id="queue-pending">—</strong><span id="queue-detail"></span></dd>
+          </div>
+          <div class="diagnostics-card">
+            <dt>En proceso</dt>
+            <dd><strong id="queue-printing">—</strong></dd>
+          </div>
+        </dl>
+        <p class="subtle diagnostics-print-note">El envío a Windows confirma la entrega a su cola. La salida en papel se comprueba en la impresora.</p>
+      </section>
+      <section class="diagnostics-card diagnostics-events" aria-labelledby="diagnostics-events-heading">
+        <h2 id="diagnostics-events-heading">Registro de eventos</h2>
+        <div class="diagnostics-filters">
+          <label for="logs-level">Nivel
+            <select id="logs-level">
+              <option value="">Todos los niveles</option>
+              <option value="error">Errores</option>
+              <option value="warn">Avisos</option>
+              <option value="info">Información</option>
+            </select>
+          </label>
+          <label for="logs-source">Origen
+            <select id="logs-source">
+              <option value="">Todos los orígenes</option>
+              <option value="web">Web</option>
+              <option value="printer">Impresión</option>
+              <option value="auth">Acceso</option>
+            </select>
+          </label>
+        </div>
+        <p id="diagnostics-empty" class="subtle" role="status"></p>
+        <ul id="diagnostics-events" class="diagnostics-list"></ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

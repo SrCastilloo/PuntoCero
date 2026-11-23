@@ -1,0 +1,1 @@
+Para la web publicada, añade las fotos desde Acceso propietaria > Platos y bebidas > Editar > Añadir foto. Se guardarán en el alojamiento y aparecerán en todos los móviles. Esta carpeta queda preparada para ajustes del código por una persona técnica.

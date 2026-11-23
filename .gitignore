@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+.env*
+CONFIGURACION-PRIVADA.txt
+printer/printer.config.json
+copias/
+tests/test-qr.svg

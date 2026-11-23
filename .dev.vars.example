@@ -1,0 +1,4 @@
+# Exclusivamente para el desarrollo local. Código web: solo-local-punto-cero
+# Configura LOG_ADMIN_PASSWORD_HASH con scripts/Set-LogsPassword.ps1 para abrir /logs.
+ADMIN_CODE_HASH=90573c34ef05a60713e5f2fe257e8da5310e04b79b6420b056eb6500fc676ff3
+PRINT_AGENT_TOKEN=print-agent-demo-local-0000000000000000000000000000000000000
